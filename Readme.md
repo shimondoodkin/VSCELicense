@@ -1,5 +1,16 @@
 # VSCELicense
 
+edit to have correct path in files ( rearm.ps1 , run.bat , runvb.vbs ) 
+
+add task in task scheduler 
+
+trigger: every two weeks
+
+action: (correct the path)
+ program: cscript
+ args: "C:\Users\Administrator\Documents\Visual Studio 2019\visual studio License rearm\runvb.vbs"
+
+
 ## Details
 
 PowerShell module to get and set Visual Studio Community Edition license expiration date in the registry. Visual Studio 2017 and 2019 are supported.
